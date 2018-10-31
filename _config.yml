@@ -1,10 +1,5 @@
 theme: jekyll-theme-slate
 github:
   repository_url: https://github.com/DIPlib/diplib
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      layout: "default"
-      title: DIPlib
+title: 'DIPlib'
+subtitle: 'Quantitative Image Analysis in C++, MATLAB and Python'
