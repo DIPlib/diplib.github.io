@@ -1,3 +1,11 @@
 theme: jekyll-theme-slate
 github:
   repository_url: https://github.com/DIPlib/diplib
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+      title: DIPlib
