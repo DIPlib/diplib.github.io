@@ -3,6 +3,7 @@ layout: post
 title: "Pre-release v3.0-beta.1"
 date: 2019-10-16
 categories: release
+author: "Ronald Ligteringen"
 ---
 
 This is the first pre-release of the complete rewrite of DIPlib (and DIPimage) in C++.
