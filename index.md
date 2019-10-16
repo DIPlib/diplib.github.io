@@ -7,13 +7,31 @@ author: "Cris Luengo"
 
 ---
 
-Welcome to the web site of the DIPlib project.
+Welcome to the web site of the DIPlib project. The project contains the following modules:
 
-Documentation to the components of this project are:
-- [The *DIPlib* documentation](https://diplib.github.io/diplib-docs/)
-- [The *DIPimage* User Manual](https://diplib.github.io/diplib-docs/dipimage_user_manual.html)
-- [The *PyDIP* User Manual](https://diplib.github.io/diplib-docs/pydip_user_manual.html)
-- [The *DIPviewer* documentation](https://diplib.github.io/diplib-docs/group__viewer.html)
+- [*DIPlib*](https://diplib.github.io/diplib-docs/), a C++ library for quantitative image analysis.
+It has been in development at Delft University of Technology in The Netherlands since 1995.
+The 3.0 release of *DIPlib* represents a complete rewrite in modern C++ of the library infrastructure,
+with most of the image processing and analysis algorithms ported from the previous version,
+and some of them improved significantly. Many of the improvements to *DIPlib* are a result of porting
+over concepts and ideas first implemented in *DIPimage*.
+
+- [*DIPimage*](/DIPimage.html), a MATLAB toolbox for quantitative image analysis, built on *DIPlib*.
+It has been in development at Delft University of Technology in The Netherlands since 1999.
+
+- [*PyDIP*](/PyDIP.html), Python bindings to *DIPlib*.
+This is currently a thin wrapper that exposes the C++ functionality with little change.
+
+- [*DIPviewer*](https://diplib.github.io/diplib-docs/group__viewer.html), an interactive image display
+utility. It is usable from C++, Python and MATLAB programs. Within *DIPimage* this is an optional
+alternative to the default MATLAB-native interactive display utility.
+
+- [*DIPjavaio*](https://diplib.github.io/diplib-docs/group__javaio.html), an interface to
+[*OME Bio-Formats*](https://www.openmicroscopy.org/bio-formats/), a Java-based library that reads
+hundreds of image file formats. This module is usable from C++ and Python. *DIPimage* has a different
+way of interfacing with *Bio-Formats*.
+
+You will find the documentation and other useful links on the side-bar of this page.
 
 ---
 
