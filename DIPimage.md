@@ -4,6 +4,8 @@ title: DIPimage
 author: "Cris Luengo"
 ---
 
+<h1><i>DIPimage</i></h1>
+
 *DIPimage* is a very extensive *MATLAB* toolbox for quantitative image analysis.
 It makes most of the *DIPlib* functionality available in *MATLAB*, and provides
 a lot of additional functionality through M-files.
