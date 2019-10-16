@@ -29,7 +29,7 @@ With additional contributions by:
 * Tuan Pham
 * Ronald Ligteringen
 
-<h3>DIPlib 3</h2>
+<h2>DIPlib 3</h2>
 
 The *DIPlib 3* project was initiated and is directed by Cris Luengo.
 It is being developed primarily by volunteers, but has had some financial support from:
