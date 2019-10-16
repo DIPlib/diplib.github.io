@@ -4,6 +4,8 @@ title: PyDIP
 author: "Cris Luengo"
 ---
 
+<h1><i>PyDIP</i></h1>
+
 Currently, *PyDIP* is a thin wrapper that makes most of the functionality in *DIPlib*
 accessible from within Python.
 Function names and arguments are mostly identical to the C++ functions. The only
