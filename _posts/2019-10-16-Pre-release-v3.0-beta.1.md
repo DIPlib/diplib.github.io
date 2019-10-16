@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "Pre-release v3.0-beta.1"
 date: 2019-10-16
 categories: release
