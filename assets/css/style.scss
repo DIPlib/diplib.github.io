@@ -1,0 +1,29 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body {
+  font: 13px/1.5 'Libre Baskerville', serif;
+  color: #000000;
+}
+
+code, pre {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 0.95em;
+  color: #a64b00;
+  background-color: #f7f7f7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color:#000000;
+}
+
+a {
+  color:#ff7400;
+}
+
+a:hover, a:focus {
+  color:#bf7130;
+  font-weight: inherit;
+}
