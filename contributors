@@ -6,6 +6,11 @@ author: "Cris Luengo"
 
 <h1>Contributors</h1>
 
+<h2>DIPlib 1 and 2</h2>
+
+The *DIPlib* project was originally developed at the Pattern Recognition
+Group of Delft University of Technology, in the Netherlands. 
+
 Main contributors to the original *DIPlib* project were (all at TU Delft):
 * Geert van Kempen
 * Michael van Ginkel
@@ -24,15 +29,15 @@ With additional contributions by:
 * Tuan Pham
 * Ronald Ligteringen
 
-The DIPlib 3 project was initiated and is directed by Cris Luengo, with support from:
+<h3>DIPlib 3</h2>
 
-* Bernd Rieger, TU Delft
-* Damir Sudar, Lawrence Berkeley National Laboratory
-* Michel Nederlof, Quantitative Imaging Systems
-* Holger Lange, Flagship Biosciences
+The *DIPlib 3* project was initiated and is directed by Cris Luengo.
+It is being developed primarily by volunteers, but has had some financial support from:
+* A European Research Council grant to Bernd Rieger, TU Delft
+* Flagship Biosciences, Inc.
+* Quantitative Imaging Systems, Inc.
 
 The following people have contributed code the *DIPlib 3* project:
-
 * Cris Luengo
 * Wouter Caarls
 * Ronald Ligteringen
