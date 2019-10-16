@@ -22,3 +22,5 @@ Matlab R2018a! Make sure you install the Visual C++ Redistributable for Visual S
 DIPlib on Windows.
 
 Binaries for macOS and Linux will be available soon!
+
+See [the changes from DIPlib 2 and DIPimage 2](/changelogs/3.0.beta-1.html).
