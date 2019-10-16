@@ -10,7 +10,7 @@ author: "Cris Luengo"
 Welcome to the web site of the DIPlib project.
 
 Documentation to the components of this project are:
-- [The *DIPlib* documentation](https://diplib.github.io/diplib-docs/).
+- [The *DIPlib* documentation](https://diplib.github.io/diplib-docs/)
 - [The *DIPimage* User Manual](https://diplib.github.io/diplib-docs/dipimage_user_manual.html)
 - [The *PyDIP* User Manual](https://diplib.github.io/diplib-docs/pydip_user_manual.html)
 - [The *DIPviewer* documentation](https://diplib.github.io/diplib-docs/group__viewer.html)
