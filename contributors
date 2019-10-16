@@ -1,0 +1,41 @@
+---
+layout: default
+title: "Contributors"
+author: "Cris Luengo"
+---
+
+<h1>Contributors</h1>
+
+Main contributors to the original *DIPlib* project were (all at TU Delft):
+* Geert van Kempen
+* Michael van Ginkel
+* Lucas van Vliet
+* Cris Luengo
+* Bernd Rieger
+
+With additional contributions by:
+* Ben Verwer
+* Hans Netten
+* J.W. Brandenburg
+* Judith Dijk
+* Niels van den Brink
+* Frank Faas
+* Kees van Wijk
+* Tuan Pham
+* Ronald Ligteringen
+
+The DIPlib 3 project was initiated and is directed by Cris Luengo, with support from:
+
+* Bernd Rieger, TU Delft
+* Damir Sudar, Lawrence Berkeley National Laboratory
+* Michel Nederlof, Quantitative Imaging Systems
+* Holger Lange, Flagship Biosciences
+
+The following people have contributed code the *DIPlib 3* project:
+
+* Cris Luengo
+* Wouter Caarls
+* Ronald Ligteringen
+* Erik Schuitema
+* Erik Wernersson
+* Filip Malmberg
