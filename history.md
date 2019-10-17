@@ -6,15 +6,17 @@ author: "Cris Luengo"
 
 <h1>A short history</h1>
 
-Development of *DIPlib* started in 1995, at the capable hands of Geert
-van Kempen and Michael van Ginkel, under direction of Lucas van Vliet,
+Development of *DIPlib* started in 1995, at the capable hands of
+Geert van Kempen and Michael van Ginkel, under direction of
+[Lucas van Vliet](https://www.tudelft.nl/en/faculty-of-applied-sciences/about-faculty/dean/lucas-van-vliet/),
 at the Pattern Recognition Group (now Quantitative Imaging Group) of
-Delft University of Technology (TU Delft). Most of the algorithms that had been
-developed there were included in the library, together with a large
-collection of standard algorithms. Due to the lack of a C++ standard at the
-time, they developed the library in C, recreating much of the C++
-functionality (templates, function overloading, exceptions, data
-hiding, memory management) using preprocessor macros and other tricks.
+[Delft University of Technology (TU Delft)](https://www.tudelft.nl/en/).
+Most of the algorithms that had been developed there were included in the
+library, together with a large collection of standard algorithms.
+Due to the lack of a C++ standard at the time, they developed the library
+in C, recreating much of the C++ functionality (templates,
+function overloading, exceptions, data hiding, memory management)
+using preprocessor macros and other tricks.
 *DIPlib* was originally used on HPUX, Solaris and IRIX, and later on
 Windows, Linux, Mac OS 9 and Mac OS X.
 
