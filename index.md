@@ -3,11 +3,12 @@ layout: default
 author: "Cris Luengo"
 ---
 
-**NOTE!** The DIPlib website is currently at [diplib.org](http://www.diplib.org).
+**NOTE! We are currently building this site.
+The DIPlib website is at [diplib.org](http://www.diplib.org).**
 
 ---
 
-Welcome to the web site of the DIPlib project. The project contains the following modules:
+The *DIPlib* project contains the following modules:
 
 - [*DIPlib*](https://diplib.github.io/diplib-docs/), a C++ library for quantitative image analysis.
 It has been in development at Delft University of Technology in The Netherlands since 1995.

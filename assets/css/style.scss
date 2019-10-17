@@ -16,14 +16,53 @@ code, pre {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#000000;
+  color: #000000;
 }
 
-a {
-  color:#ff7400;
+header h1 {
+  font-style: italic;
+  font-size: 42px;
+  margin-bottom: 5px;
 }
 
-a:hover, a:focus {
-  color:#bf7130;
+a, a code {
+  color: #ff7400;
+}
+
+a:hover, a:focus, a:hover code, a:focus code {
+  color: #bf7130;
+  font-weight: inherit;
+}
+
+/* Override settings for 'header ul' */
+
+ul.links {
+  width: inherit;
+  list-style:none;
+  height: inherit;
+  padding: 0;
+  background: inherit;
+  border: none;
+}
+
+.links li {
+  width: auto;
+  float: none;
+  border: none;
+  height: auto;
+}
+
+.links a {
+  line-height: inherit;
+  font-size: inherit;
+  color: #ff7400;
+  display: block;
+  text-align: inherit;
+  padding: none;
+  height: auto;
+}
+
+.links a:hover {
+  color: #bf7130;
   font-weight: inherit;
 }
