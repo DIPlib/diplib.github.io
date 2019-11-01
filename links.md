@@ -12,15 +12,17 @@ author: "Cris Luengo"
 
 - I.T. Young, J.J. Gerbrands, L.J. van Vliet, "[*Fundamentals of Image Processing*](ftp://qiftp.tudelft.nl/DIPimage/docs/FIP2.3.pdf)", an online image processing book.
 
-- B. Jahne, "*Digital Image Processing*", Springer, 1996.
-
 - A.K. Jain, "*Fundamentals of Digital Image Processing*", Prentice Hall, 1989.
+
+- B. Jahne, "*Digital Image Processing*", Springer, 1996.
 
 - K.R. Castleman, "*Digital Image Processing*", Prentice Hall, 1996.
 
+- P. Soille, "*Morphological Image Analysis, Principles and Applications*", 2nd Ed, Springer, 2003.
+
 - M. Sonka, V. Hlavac, R. Boyle, "*Image Processing, Analysis, and Machine Vision*", 4th Ed, Cengage Learning, 2015.
 
-- P. Soille, "*Morphological Image Analysis, Principles and Applications*", 2nd Ed, Springer, 2003.
+- R.C. Gonzalez, R.E. Woods, "*Digital Image Processing*", 4th Edition, Pearson, 2018.
 
 ## Other resources
 
