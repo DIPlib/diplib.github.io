@@ -39,9 +39,10 @@ It is being developed primarily by volunteers, but has had some financial suppor
 * [Quantitative Imaging Systems, Inc.](http://www.qi-tissue.com)
 
 The following people have contributed code the *DIPlib 3* project:
-* [Cris Luengo](https://www.crisluengo.net)
-* [Wouter Caarls](https://wouter.caarls.org)
-* [Ronald Ligteringen](http://homepage.tudelft.nl/3a30t/)
-* Erik Schuitema
-* Erik Wernersson
-* [Filip Malmberg](http://www.cb.uu.se/~filip/)
+* [Cris Luengo](https://www.crisluengo.net) ([@crisluengo](https://github.com/crisluengo))
+* [Wouter Caarls](https://wouter.caarls.org) ([@wcaarls](https://github.com/wcaarls))
+* [Ronald Ligteringen](http://homepage.tudelft.nl/3a30t/) ([@ronligt](https://github.com/ronligt))
+* Erik Schuitema ([@erikschuitema](https://github.com/erikschuitema))
+* Yan Guo ([@yanguo0528](https://github.com/yanguo0528))
+* Erik Wernersson ([@elgw](https://github.com/elgw))
+* [Filip Malmberg](http://www.cb.uu.se/~filip/) ([@FMalmberg](https://github.com/FMalmberg))
