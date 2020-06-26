@@ -26,3 +26,7 @@ will use the *DIPviewer* interactive display.
 The [`/examples/python`](https://github.com/DIPlib/diplib/blob/master/examples/python/)
 directory contains a few Jupyter notebooks that introduce the package and demonstrate
 some of its functionality.
+
+To install the bindings use
+
+    pip install diplib
