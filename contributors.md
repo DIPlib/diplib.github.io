@@ -6,7 +6,7 @@ author: "Cris Luengo"
 
 <h1>Contributors</h1>
 
-<h2><i>DIPlib<i> 1 and 2</h2>
+<h2><i>DIPlib</i> 1 and 2</h2>
 
 The *DIPlib* project was originally developed at the Pattern Recognition
 Group of Delft University of Technology, in the Netherlands, under direction
@@ -30,7 +30,7 @@ With additional contributions by:
 * Tuan Pham
 * Ronald Ligteringen
 
-<h2><i>DIPlib<i> 3</h2>
+<h2><i>DIPlib</i> 3</h2>
 
 The *DIPlib 3* project was initiated and is directed by [Cris Luengo](https://www.crisluengo.net).
 It is being developed primarily by volunteers, but has had some financial support from:
