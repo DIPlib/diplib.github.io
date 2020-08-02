@@ -23,10 +23,19 @@ The `PyDIP.PyDIPviewer` sub-module gives access to [*DIPviewer*](https://diplib.
 When Python is started through the `examples/python/pydip.py` script, the `Show` function
 will use the *DIPviewer* interactive display.
 
-The [`/examples/python`](https://github.com/DIPlib/diplib/blob/master/examples/python/)
-directory contains a few Jupyter notebooks that introduce the package and demonstrate
-some of its functionality.
+These Jupyter notebooks give a short introduction:
 
-To install the bindings use
+- [pydip_basics.ipynb](https://github.com/DIPlib/diplib/blob/master/examples/python/pydip_basics.ipynb)
+- [tensor_images.ipynb](https://github.com/DIPlib/diplib/blob/master/examples/python/tensor_images.ipynb)
+
+
+## Installation
+
+To install, simply type
 
     pip install diplib
+
+Windows users might need to install the [Microsoft Visual C++ Redistributable for Visual Studio 2015, 2017 and 2019](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads). To read images through the *Bio-Formats* library, you will need to download it
+separately:
+
+    python -m diplib download_bioformats
