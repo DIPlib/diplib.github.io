@@ -4,6 +4,8 @@ title: "License"
 author: "Cris Luengo"
 ---
 
+<h1>License</h1>
+
 The *DIPlib* project is licensed under the Apache 2.0 license, see the
 <a href="https://github.com/DIPlib/diplib/blob/master/README.md">`README.md`</a> file
 in the root of the repository.
