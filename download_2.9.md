@@ -6,9 +6,12 @@ author: "Cris Luengo"
 
 <h1>Download <i>DIPlib</i> and <i>DIPimage</i> version 2.9</h1>
 
+Version 2.9 of *DIPlib* and *DIPimage* is no longer supported, but is still available though this page.
+
 The links below can be used to obtain a non-commercial license. This license is free, and can be used by students
 and staff in a University research project *without* an industrial sponsor. If you need to obtain the commercial
 license for version 2.9 or older of *DIPlib* and *DIPimage*, please contact <a href="mailto:license@diplib.org">license@diplib.org</a>.
+This version is not open source. Version 3 of the library and toolbox are open source.
 
 You may download and use *DIPimage* and *DIPlib* after complying with the following three terms of use:
 1. I agree to all terms in the [license agreement](#license).
@@ -53,7 +56,7 @@ The set of demo images can be downloaded in two forms:
 Both files contain the same files, so you only need to download one format.
 
 
-<h2><a id="license"></a>Older and unsupported releases</h2>
+<h2><a id="license"></a>Older releases</h2>
 
 Throughout time support for older versions of MATLAB has been dropped. Older releases of *DIPimage* might support these older
 versions. These can be found in their respective directories on our FTP site:
