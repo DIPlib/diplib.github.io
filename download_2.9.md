@@ -10,6 +10,13 @@ The links below can be used to obtain a non-commercial license. This license is 
 and staff in a University research project *without* an industrial sponsor. If you need to obtain the commercial
 license for version 2.9 or older of *DIPlib* and *DIPimage*, please contact <a href="mailto:license@diplib.org">license@diplib.org</a>.
 
+You may download and use *DIPimage* and *DIPlib* after complying with the following three terms of use:
+1. I agree to all terms in the [license agreement](#license).
+2. I declare I will use *DIPimage* or *DIPlib* only for non-commercial purposes.
+3. I declare I will not redistribute any of this software.
+
+<h2>Compatibility</h2>
+
 Version 2.9 of *DIPimage* is compatible with MATLAB R2008a and up. This version will not run on older versions of MATLAB!
 
 - On MacOS, this version of *DIPimage* is compatible only with MATLAB R2009bSP1 and up.
@@ -17,22 +24,6 @@ Version 2.9 of *DIPimage* is compatible with MATLAB R2008a and up. This version 
 "feature" has been resolved in version R2016a. In other words: do **not** use MATLAB R2015b with *DIPimage*
 - Starting this version, 32-bit Windows is no longer supported. For 32-bit Windows support please
 [download an older version](#older).
-
-You may download and use *DIPimage* and *DIPlib* after complying with the following three terms of use:
-1. I agree to all terms in the [license agreement](#license).
-2. I declare I will use *DIPimage* or *DIPlib* only for non-commercial purposes.
-3. I declare I will not redistribute any of this software.
-
-- For Linux 32-bits: <a href="ftp://qiftp.tudelft.nl/DIPimage/2.9/dipimage_2.9_lin32.tbz" target="_blank">dipimage_2.9_lin32.tbz</a>.
-- For Linux 64-bits: <a href="ftp://qiftp.tudelft.nl/DIPimage/2.9/dipimage_2.9_lin64.tbz" target="_blank">dipimage_2.9_lin64.tbz</a>.
-- For MacOS X (10.6 or higher): <a href="ftp://qiftp.tudelft.nl/DIPimage/2.9/dipimage_2.9_darwin.tbz" target="_blank">dipimage_2.9_darwin.tbz</a>.
-- For Windows 64-bits <a href="ftp://qiftp.tudelft.nl/DIPimage/2.9/DIPimage%202.9%20installer%20win64.exe" target="_blank">DIPimage 2.9 installer win64.exe</a>
-  (recommended) or <a href="ftp://qiftp.tudelft.nl/DIPimage/2.9/dipimage_2.9_win64.zip" target="_blank">dipimage_2.9_win64.zip</a> (for manual installation).
-
-The set of demo images can be downloaded in two forms: 
-<a href="ftp://qiftp.tudelft.nl/DIPimage/images.tbz" target="_blank">images.tbz</a> or
-<a href="ftp://qiftp.tudelft.nl/DIPimage/images.zip" target="_blank">images.zip</a>.
-Both files contain the same files, so you only need to download one format.
 
 All versions have been tested on the following platforms:
 
@@ -46,6 +37,20 @@ All versions have been tested on the following platforms:
 | &nbsp;          | MacOS X 10.10 MATLAB 2016a                | &nbsp;                           |
 | Windows 64-bits | Windows 2008 64-bits MATLAB 2008a 64-bits | Windows 2008 64-bits VS 2012     |
 | &nbsp;          | Windows 2008 64-bits MATLAB 2016a 64-bits | &nbsp;                           |
+
+
+<h2>Download</h2>
+
+- For Linux 32-bits: <a href="ftp://qiftp.tudelft.nl/DIPimage/2.9/dipimage_2.9_lin32.tbz" target="_blank">dipimage_2.9_lin32.tbz</a>.
+- For Linux 64-bits: <a href="ftp://qiftp.tudelft.nl/DIPimage/2.9/dipimage_2.9_lin64.tbz" target="_blank">dipimage_2.9_lin64.tbz</a>.
+- For MacOS X (10.6 or higher): <a href="ftp://qiftp.tudelft.nl/DIPimage/2.9/dipimage_2.9_darwin.tbz" target="_blank">dipimage_2.9_darwin.tbz</a>.
+- For Windows 64-bits <a href="ftp://qiftp.tudelft.nl/DIPimage/2.9/DIPimage%202.9%20installer%20win64.exe" target="_blank">DIPimage 2.9 installer win64.exe</a>
+  (recommended) or <a href="ftp://qiftp.tudelft.nl/DIPimage/2.9/dipimage_2.9_win64.zip" target="_blank">dipimage_2.9_win64.zip</a> (for manual installation).
+
+The set of demo images can be downloaded in two forms: 
+<a href="ftp://qiftp.tudelft.nl/DIPimage/images.tbz" target="_blank">images.tbz</a> or
+<a href="ftp://qiftp.tudelft.nl/DIPimage/images.zip" target="_blank">images.zip</a>.
+Both files contain the same files, so you only need to download one format.
 
 
 <h2><a id="license"></a>Older and unsupported releases</h2>
