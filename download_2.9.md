@@ -44,16 +44,34 @@ All versions have been tested on the following platforms:
 
 <h2>Download</h2>
 
-- For Linux 32-bits: <a href="ftp://qiftp.tudelft.nl/DIPimage/2.9/dipimage_2.9_lin32.tbz" target="_blank">dipimage_2.9_lin32.tbz</a>.
-- For Linux 64-bits: <a href="ftp://qiftp.tudelft.nl/DIPimage/2.9/dipimage_2.9_lin64.tbz" target="_blank">dipimage_2.9_lin64.tbz</a>.
-- For MacOS X (10.6 or higher): <a href="ftp://qiftp.tudelft.nl/DIPimage/2.9/dipimage_2.9_darwin.tbz" target="_blank">dipimage_2.9_darwin.tbz</a>.
-- For Windows 64-bits <a href="ftp://qiftp.tudelft.nl/DIPimage/2.9/DIPimage%202.9%20installer%20win64.exe" target="_blank">DIPimage 2.9 installer win64.exe</a>
-  (recommended) or <a href="ftp://qiftp.tudelft.nl/DIPimage/2.9/dipimage_2.9_win64.zip" target="_blank">dipimage_2.9_win64.zip</a> (for manual installation).
+Please make sure you follow the installation instructions found in [the DIPimage User Manual](ftp://qiftp.tudelft.nl//DIPimage/latest/docs/dipimage_user_manual.pdf).
+
+- For Linux 32-bits: [dipimage_2.9_lin32.tbz](ftp://qiftp.tudelft.nl/DIPimage/2.9/dipimage_2.9_lin32.tbz).
+- For Linux 64-bits: [dipimage_2.9_lin64.tbz](ftp://qiftp.tudelft.nl/DIPimage/2.9/dipimage_2.9_lin64.tbz).
+- For MacOS X (10.6 or higher): [dipimage_2.9_darwin.tbz](ftp://qiftp.tudelft.nl/DIPimage/2.9/dipimage_2.9_darwin.tbz).
+- For Windows 64-bits [DIPimage 2.9 installer win64.exe](ftp://qiftp.tudelft.nl/DIPimage/2.9/DIPimage%202.9%20installer%20win64.exe)
+  (recommended) or [dipimage_2.9_win64.zip](ftp://qiftp.tudelft.nl/DIPimage/2.9/dipimage_2.9_win64.zip) (for manual installation).
 
 The set of demo images can be downloaded in two forms: 
-<a href="ftp://qiftp.tudelft.nl/DIPimage/images.tbz" target="_blank">images.tbz</a> or
-<a href="ftp://qiftp.tudelft.nl/DIPimage/images.zip" target="_blank">images.zip</a>.
+[images.tbz](ftp://qiftp.tudelft.nl/DIPimage/images.tbz) or [images.zip](ftp://qiftp.tudelft.nl/DIPimage/images.zip).
 Both files contain the same files, so you only need to download one format.
+
+*DIPimage* documentation:
+- [User Manual (PDF)](ftp://qiftp.tudelft.nl/DIPimage/latest/docs/dipimage_user_manual.pdf)
+- [Introduction to *DIPimage* (PDF)](ftp://qiftp.tudelft.nl/DIPimage/docs/Introduction_to_DIPimage.pdf)
+- Function reference is available within the toolbox
+- [MEX-file programming with *DIPimage* (PDF)](ftp://qiftp.tudelft.nl/DIPimage/latest/docs/mex_file_programming.pdf)
+
+*DIPlib* documentation:
+- [Programmers Guide (PDF)](ftp://qiftp.tudelft.nl/DIPimage/latest/docs/diplib_programmers_guide.pdf)
+- [Function Reference (PDF)](ftp://qiftp.tudelft.nl/DIPimage/latest/docs/diplib_reference_guide.pdf) (~3Mb)
+- [Online Function Reference (HTML)](http://qiftp.tudelft.nl/dipref)
+
+*DIPlib* sample source code: 
+- [Sample stand-alone application in C](ftp://qiftp.tudelft.nl/DIPimage/docs/standalone.c)
+- [Same application without error-handling macros](ftp://qiftp.tudelft.nl/DIPimage/docs/standalone2.c)
+- [Demonstration of the measurement functions](ftp://qiftp.tudelft.nl/DIPimage/docs/measuredemo.c)
+- [Stand-alone application to create a thumbnail](ftp://qiftp.tudelft.nl/DIPimage/docs/makethumbs.c) (this is a more complete and useful sample)
 
 
 <h2><a id="license"></a>Older releases</h2>
