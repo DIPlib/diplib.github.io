@@ -82,9 +82,9 @@ Also other older platforms have been supported in previous releases of *DIPlib* 
 
 ## License
 
-The Quantitative Imaging Group of the TU Delft, to be called QI, has developed and is the owner of the image processing library written in C and all related documentation known as *DIPlib*, hereafter called SOFTWARE.
+The Computational Imaging Group of the TU Delft, to be called CI, has developed and is the owner of the image processing library written in C and all related documentation known as *DIPlib*, hereafter called SOFTWARE.
 
-QI also developed a MATLAB toolbox for image processing based on *DIPlib*, known as *DIPimage*. *DIPimage* is freely available for *DIPlib* license holders and available for the following platforms:
+CI also developed a MATLAB toolbox for image processing based on *DIPlib*, known as *DIPimage*. *DIPimage* is freely available for *DIPlib* license holders and available for the following platforms:
 
 - Linux 32-bit
 - Linux 64-bit
@@ -120,25 +120,25 @@ surcharge of 500 Euro.
 
 1.5. All prices listed are exclusive BTW (value added tax). BTW in the The Netherlands is 21%.
 
-### 2. Upgrades and Support**
+### 2. Upgrades and Support
 
 2.1. All licenses are provided on an "as is" basis without support or guarantees.
 
 2.2. All license holders are entitled to freely download upgrades of the the SOFTWARE as they become available, up to a maximum of three years after the original purchase.
 
-2.3. QI has the right to stop the development and distribution of the SOFTWARE at any time without prior notice
+2.3. CI has the right to stop the development and distribution of the SOFTWARE at any time without prior notice
 to the license holders.
 
 ### 3. Disclaimer
 
-3.1. The CUSTOMER acknowledges that the SOFTWARE is a research tool and that it is being supplied 'as is', without any accompanying services from QI.
+3.1. The CUSTOMER acknowledges that the SOFTWARE is a research tool and that it is being supplied 'as is', without any accompanying services from CI.
 
-3.2. QI makes no representations or warranties of any kind, either express or implied, as to any matter whatsoever, including but not limited to implied warranties of merchantability or fitness for any particular purpose or that the use of the SOFTWARE will not infringe any patent or copyright.
+3.2. CI makes no representations or warranties of any kind, either express or implied, as to any matter whatsoever, including but not limited to implied warranties of merchantability or fitness for any particular purpose or that the use of the SOFTWARE will not infringe any patent or copyright.
 
-3.3. The CUSTOMER agrees that QI shall not be held to any liability with respect to any claim by the CUSTOMER or a third party arising from or on account of the use of the SOFTWARE or redistribution of the SOFTWARE. QI shall not be liable for any special indirect, incidental or consequential damages
+3.3. The CUSTOMER agrees that CI shall not be held to any liability with respect to any claim by the CUSTOMER or a third party arising from or on account of the use of the SOFTWARE or redistribution of the SOFTWARE. CI shall not be liable for any special indirect, incidental or consequential damages
 arising out of the licensed rights granted hereunder.
 
-3.4. QI cannot be held to any liability with respect to errors in the SOFTWARE or damage caused by correct or incorrect use of the SOFTWARE.
+3.4. CI cannot be held to any liability with respect to errors in the SOFTWARE or damage caused by correct or incorrect use of the SOFTWARE.
 
 ### 4. Copyrights
 
