@@ -97,7 +97,7 @@ this list will help in porting your old code that used *DIPlib* to the new versi
 ## Changes in algorithm interface
 
 - Function parameters expressing options are now represented by strings rather than
-  \c \#define or `enum` constants (except for low-level library functionality).
+  `#define` or `enum` constants (except for low-level library functionality).
 
 - The library now makes a distinction between signed and unsigned integers. This affects many
   function parameters.
