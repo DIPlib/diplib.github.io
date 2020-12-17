@@ -3,7 +3,7 @@ layout: default
 title: "News"
 ---
 
-<h1>News</h1>
+# News
 
 <ul>
 {% for post in site.posts %}

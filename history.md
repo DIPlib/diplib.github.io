@@ -4,12 +4,12 @@ title: "A short history"
 author: "Cris Luengo"
 ---
 
-<h1>A short history</h1>
+# A short history
 
 Development of *DIPlib* started in 1995, at the capable hands of
 Geert van Kempen and Michael van Ginkel, under direction of
 [Lucas van Vliet](https://www.tudelft.nl/en/faculty-of-applied-sciences/about-faculty/dean/lucas-van-vliet/),
-at the Pattern Recognition Group (now Quantitative Imaging Group) of
+at the Pattern Recognition Group (later Quantitative Imaging, now Computational imaging) of
 [Delft University of Technology (TU Delft)](https://www.tudelft.nl/en/).
 Most of the algorithms that had been developed there were included in the
 library, together with a large collection of standard algorithms.
@@ -30,7 +30,8 @@ algorithms. That same year, a user-friendly GUI in the spirit of
 *DIPlib* library.
 
 *DIPlib 3* represents the first major rewrite of the *DIPlib* code base.
-We have rewritten the infrastructure in C++14, using all of the original
+Planning started in 2014, and by 2017 Cris Luengo had rewritten
+the infrastructure in C++14, using all of the original
 ideas and concepts, but adding tensor images, color support, and other
 ideas we had developed within the *DIPimage* toolbox. C++14 allows the
 user to write code that is almost as simple as the equivalent *MATLAB*
@@ -44,3 +45,7 @@ that some of the *MATLAB* code was replaced with calls to *DIPlib*, and
 the low-level interface (`dip_*` functions) disappeared. The internal
 representation of images has also changed. However, we strive
 to keep backwards-compatibility in the high-level toolbox functions.
+
+With financial support from Flagship Biosciences, Cris Luengo created the
+initial Python bindings (*PyDIP*) in 2017. Wouter Caarls created the
+*DIPviewer* and *DIPjavaio* components in 2017 and 2019, respectively.

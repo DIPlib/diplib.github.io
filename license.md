@@ -4,17 +4,17 @@ title: "License"
 author: "Cris Luengo"
 ---
 
-<h1>License</h1>
+# License
 
 The *DIPlib* project is licensed under the Apache 2.0 license, see the
-<a href="https://github.com/DIPlib/diplib/blob/master/README.md">`README.md`</a> file
+[`README.md`](https://github.com/DIPlib/diplib/blob/master/README.md) file
 in the root of the repository.
 
 The Apache 2.0 license is a permissive open-source license. In short, this means that
 you can use this software as you see fit, including making modifications, and distribute
 this software, parts of it, and/or your modifications to it, either in source form or as
 binaries. You are free to keep your modifications private, you are not required to
-distribute sources with your binaries. HOWEVER, you must include proper attribution, as
+distribute sources with your binaries. **However**, you must include proper attribution, as
 well as the copyright notices, with any such distribution. You cannot pretend that you
 wrote this software, and you cannot make it look like we endorse any software that you
 wrote.

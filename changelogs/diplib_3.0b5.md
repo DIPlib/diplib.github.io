@@ -1,13 +1,16 @@
 ---
 layout: post
-title: "Changes DIPlib 3.0.beta"
+title: "Changes DIPlib 3.0 beta 5"
 author: "Cris Luengo"
 ---
+
+# Changes in *DIPlib* 3.0 beta 5 from *DIPlib* 2.9
 
 *DIPlib 3* is a complete rewrite in C++ of the *DIPlib 2* infrastructure, which was written
 in C; only the code that implements actual image processing and analysis algorithms is ported
 over.
 
+Here we list the changes to *DIPlib* as compared to version 2.9.
 The list below describes infrastructure changes, function interface changes, and functionality
 changes in the *DIPlib* library. It is possible that we missed some changes here, but hopefully
 this list will help in porting your old code that used *DIPlib* to the new version.
@@ -127,6 +130,9 @@ this list will help in porting your old code that used *DIPlib* to the new versi
 
    - Measurement features have a much simpler programmer's interface, it should be easier to
      write new features now.
+
+   - Computed measurements are now in an object of type `dip::Measurement`, whose interface is
+     much easier to use than the old `dip_Measurement`.
 
 - `dip_ObjectToMeasurement` now takes a feature iterator rather than computing the feature;
   this might be more flexible.
@@ -271,7 +277,9 @@ this list will help in porting your old code that used *DIPlib* to the new versi
 - `dip::FourierTransform` now does normalization in the more common way (forward transform not
   normalized, inverse transform normalized by 1/N), but an option (`"symmetric"`) allows to change
   the normalization to be consistent with *DIPlib 2*, which used a symmetric normalization
-  scheme (both forward and backward transforms use 1/N<sup>1/2</sup>)
+  scheme (both forward and backward transforms use 1/N<sup>1/2</sup>). It also has options
+  to specify where the origin of the transform is (`"corner"`) and for padding to a nice
+  size (`"fast"`).
 
 - `dip::Histogram` misses a few of the options that `dip_MultiDimensionalHistogram` had, but I
   don't think they are relevant. They can be added easily if necessary. Histograms now use
@@ -313,6 +321,9 @@ this list will help in porting your old code that used *DIPlib* to the new versi
 - `dip::FindShift` now returns the shift with inverse sign compared to before, to match the reversal
   in `dip::Shift`.
 
+- `dip::Label` now returns an unsigend integer image (previously it was a signed integer image).
+  All functions that work on labeled images expect an unsigned integer image as input.
+
 - `dip::ImageWriteICS` now has a `"fast"` option that causes dimensions to be written to file in
   the order in which they are stored in memory, rather than in standard increasing order. This
   makes writing a lot faster if strides are non-standard. `dip::ImageReadICS` has a similar option
@@ -348,10 +359,10 @@ this list will help in porting your old code that used *DIPlib* to the new versi
 
 ## New functionality
 
-- New external library *DIPviewer* adds interactive image display, see [its documentation](https://diplib.github.io/diplib-docs/group__viewer.html).
+- New external library *DIPviewer* adds interactive image display, see [its documentation](https://diplib.org/diplib-docs/group__viewer.html).
 
 - New external library *DIPjavaio* adds the option to use *Bio-Formats* to read hundreds of image file formats,
-  see [its documentation](https://diplib.github.io/diplib-docs/group__javaio.html).
+  see [its documentation](https://diplib.org/diplib-docs/group__javaio.html).
 
 - New analysis functions: `dip::AutoCorrelationFT`, `dip::MeanShift`, `dip::FourierMellinMatch2D`, `dip::MonogenicSignal`,
   `dip::MonogenicSignalAnalysis`, `dip::Semivariogram`, `dip::Granulometry`, `dip::FractalDimension`.
@@ -438,6 +449,10 @@ this list will help in porting your old code that used *DIPlib* to the new versi
   `dip::SortTensorElements`, `dip::SortTensorElementsByMagnitude`,
   `dip::Hypot`.
 
+- New measurement functions: see the class `dip::Measurement`, and functions that apply to it: `dip::Minimum`, `dip::Maximum`,
+  `dip::Percentile`, `dip::Median`, `dip::Mean`, `dip::MaximumAndMinimum`, `dip::SampleStatistics`. See the classes
+  `dip::ChainCode`, `dip::Polygon`, `dip::ConvexHull`, `dip::CovarianceMatrix`.
+
 - New microscopy functions: `dip::BeerLambertMapping`, `dip::InverseBeerLambertMapping`, `dip::UnmixStains`, `dip::MixStains`,
   `dip::MandersOverlapCoefficient`, `dip::IntensityCorrelationQuotient`, `dip::MandersColocalizationCoefficients`,
   `dip::CostesColocalizationCoefficients`, `dip::CostesSignificanceTest`.
@@ -446,7 +461,9 @@ this list will help in porting your old code that used *DIPlib* to the new versi
   `dip::MinimumVariancePartitioning`, `dip::OtsuThreshold`, `dip::MinimumErrorThreshold`, `dip::GaussianMixtureModelThreshold`,
   `dip::TriangleThreshold`, `dip::BackgroundThreshold`, `dip::VolumeThreshold`, `dip::MultipleThresholds`, `dip::Superpixels`.
 
+- New testing functions: `dip::testing::PrintPixelValues`, `dip::testing::CompareImages`. New class: `dip::testing::Timer`.
+
 - New transform functions: `dip::OptimalFourierTransformSize`, `dip::RieszTransform`, `dip::StationaryWaveletTransform`.
 
 - There is also a lot of new functionality in the library infrastructure, which we cannot all list here.
-  See [the library infrastructure documentation](https://diplib.github.io/diplib-docs/group__infrastructure.html).
+  See [the library infrastructure documentation](https://diplib.org/diplib-docs/group__infrastructure.html).

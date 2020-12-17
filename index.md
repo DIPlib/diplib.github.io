@@ -5,7 +5,7 @@ author: "Cris Luengo"
 
 The *DIPlib* project contains the following modules:
 
-- [*DIPlib*](https://diplib.github.io/diplib-docs/), a C++ library for quantitative image analysis.
+- [*DIPlib*](/diplib-docs/), a C++ library for quantitative image analysis.
 It has been in development at Delft University of Technology in The Netherlands since 1995.
 The 3.0 release of *DIPlib* represents a complete rewrite in modern C++ of the library infrastructure,
 with most of the image processing and analysis algorithms ported from the previous version,
@@ -18,11 +18,11 @@ It has been in development at Delft University of Technology in The Netherlands 
 - [*PyDIP*](/PyDIP.html), Python bindings to *DIPlib*.
 This is currently a thin wrapper that exposes the C++ functionality with little change.
 
-- [*DIPviewer*](https://diplib.github.io/diplib-docs/group__viewer.html), an interactive image display
+- [*DIPviewer*](/diplib-docs/group__viewer.html), an interactive image display
 utility. It is usable from C++, Python and MATLAB programs. Within *DIPimage* this is an optional
 alternative to the default MATLAB-native interactive display utility.
 
-- [*DIPjavaio*](https://diplib.github.io/diplib-docs/group__javaio.html), an interface to
+- [*DIPjavaio*](/diplib-docs/group__javaio.html), an interface to
 [*OME Bio-Formats*](https://www.openmicroscopy.org/bio-formats/), a Java-based library that reads
 hundreds of image file formats. This module is usable from C++ and Python. *DIPimage* has a different
 way of interfacing with *Bio-Formats*.
@@ -31,7 +31,7 @@ You will find the documentation and other useful links on the side-bar of this p
 
 ---
 
-<h2>News</h2>
+## News
 
 <ul>
 {% for post in site.posts limit:3 %}
@@ -43,7 +43,7 @@ You will find the documentation and other useful links on the side-bar of this p
 [All news](./news.html)
 
 
-<h2>Contributing</h2>
+## Contributing
 
 If you want to contribute to the *DIPlib* project, there are many different
 ways of doing so:
@@ -61,7 +61,7 @@ ways of doing so:
 
 - Improve the markup of the documentation, or create a logo for the project.
 
-In any of these cases, see <a href="https://github.com/DIPlib/diplib/blob/master/CONTRIBUTING.md">`CONTRIBUTING.md`</a>
+In any of these cases, see [`CONTRIBUTING.md`](https://github.com/DIPlib/diplib/blob/master/CONTRIBUTING.md)
 to learn how to make optimal use of your time.
 Don't be offended if you receive requests for modifications before your work is merged
 with the project.
