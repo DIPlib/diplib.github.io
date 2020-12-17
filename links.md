@@ -4,7 +4,7 @@ title: "External links"
 author: "Cris Luengo"
 ---
 
-<h1>External links</h1>
+# External links
 
 ## Learning image analysis
 
@@ -28,7 +28,7 @@ author: "Cris Luengo"
 
 - [DIPlib Issue Tracker](https://github.com/DIPlib/diplib/issues), for any bugs, feature requests or project-specific questions. Not for help with your projects.
 
-- [Stack Overflow](https://stackoverflow.com/), for questions related to programming.
+- [Stack Overflow](https://stackoverflow.com/), for questions related to programming. Use the [diplib](https://stackoverflow.com/tags/diplib) tag.
 
 - [MATLAB Answers](https://www.mathworks.com/matlabcentral/answers), similar to Stack Overflow but specific to *MATLAB*.
 
