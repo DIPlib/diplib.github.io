@@ -22,5 +22,5 @@ We would love to receive your feedback on this beta and invite you to use the
 
 Binaries for macOS and Linux will be available soon!
 
-[Changes in *DIPlib* as compared to version 2.9](/changelogs/diplib_3.0b1.md)  
-[Changes in *DIPimage* as compared to version 2.9](/changelogs/dipimage_3.0b1.md)
+[Changes in *DIPlib* as compared to version 2.9](/changelogs/diplib_3.0b1.html)  
+[Changes in *DIPimage* as compared to version 2.9](/changelogs/dipimage_3.0b1.html)

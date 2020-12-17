@@ -4,8 +4,6 @@ title: "Changes DIPlib 3.0 beta 5"
 author: "Cris Luengo"
 ---
 
-# Changes in *DIPlib* 3.0 beta 5 from *DIPlib* 2.9
-
 *DIPlib 3* is a complete rewrite in C++ of the *DIPlib 2* infrastructure, which was written
 in C; only the code that implements actual image processing and analysis algorithms is ported
 over.

@@ -29,5 +29,5 @@ from source is still necessary there.
 
 To use the C++ library, we recommend that you build from source even if binary distributions were available.
 
-[Changes in *DIPlib* as compared to version 2.9](/changelogs/diplib_3.0b5.md)  
-[Changes in *DIPimage* as compared to version 2.9](/changelogs/dipimage_3.0b5.md)
+[Changes in *DIPlib* as compared to version 2.9](/changelogs/diplib_3.0b5.html)  
+[Changes in *DIPimage* as compared to version 2.9](/changelogs/dipimage_3.0b5.html)
