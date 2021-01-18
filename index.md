@@ -3,9 +3,13 @@ layout: default
 author: "Cris Luengo"
 ---
 
+The purpose of the *DIPlib* project is to provide a one-stop library and
+development environment for quantitative image analysis, be it applied
+to microscopy, radiology, astronomy, or anything in between.
+
 The *DIPlib* project contains the following modules:
 
-- [*DIPlib*](/diplib-docs/), a C++ library for quantitative image analysis.
+- [*DIPlib*](/DIPlib.html), a C++ library for quantitative image analysis.
 It has been in development at Delft University of Technology in The Netherlands since 1995.
 The 3.0 release of *DIPlib* represents a complete rewrite in modern C++ of the library infrastructure,
 with most of the image processing and analysis algorithms ported from the previous version,
@@ -13,7 +17,8 @@ and some of them improved significantly. Many of the improvements to *DIPlib* ar
 over concepts and ideas first implemented in *DIPimage*.
 
 - [*DIPimage*](/DIPimage.html), a MATLAB toolbox for quantitative image analysis, built on *DIPlib*.
-It has been in development at Delft University of Technology in The Netherlands since 1999.
+It is a mature toolbox, and offers much more than access to *DIPlib* from within MATLAB. It includes
+a GUI and an interactive image display that can be used to explore 1D, 2D, 3D and 4D images.
 
 - [*PyDIP*](/PyDIP.html), Python bindings to *DIPlib*.
 This is currently a thin wrapper that exposes the C++ functionality with little change.
