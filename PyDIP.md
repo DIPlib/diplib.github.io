@@ -19,7 +19,7 @@ each of the parameters. Use the DIPlib reference to learn how to use each functi
 Get started by reading [the *PyDIP* User Manual](/diplib-docs/pydip_user_manual.html).
 
 Images can be shown using the `Show` method, which uses *matplotlib*.
-The `PyDIP.PyDIPviewer` sub-module gives access to [*DIPviewer*](/diplib-docs/group__viewer.html).
+The `PyDIP.PyDIPviewer` sub-module gives access to [*DIPviewer*](/diplib-docs/dipviewer.html).
 When Python is started through the `examples/python/pydip.py` script, the `Show` function
 will use the *DIPviewer* interactive display.
 
@@ -37,6 +37,7 @@ To install, simply type
 
 Windows users might need to install the
 [Microsoft Visual C++ Redistributable for Visual Studio 2015, 2017 and 2019](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads).
+
 To read images through the *Bio-Formats* library, you will need to download it
 separately:
 

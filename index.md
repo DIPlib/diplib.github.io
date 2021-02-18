@@ -18,11 +18,11 @@ a GUI and an interactive image display that can be used to explore 1D, 2D, 3D an
 - [*PyDIP*](/PyDIP.html), Python bindings to *DIPlib*.
 This is currently a thin wrapper that exposes the C++ functionality with little change.
 
-- [*DIPviewer*](/diplib-docs/group__viewer.html), an interactive image display
+- [*DIPviewer*](/diplib-docs/dipviewer.html), an interactive image display
 utility. It is usable from C++, Python and MATLAB programs. Within *DIPimage* this is an optional
 alternative to the default MATLAB-native interactive display utility.
 
-- [*DIPjavaio*](/diplib-docs/group__javaio.html), an interface to
+- [*DIPjavaio*](/diplib-docs/dipjavaio.html), an interface to
 [*OME Bio-Formats*](https://www.openmicroscopy.org/bio-formats/), a Java-based library that reads
 hundreds of image file formats. This module is usable from C++ and Python. *DIPimage* has a different
 way of interfacing with *Bio-Formats*.
@@ -40,7 +40,7 @@ You will find the documentation and other useful links on the side-bar of this p
 {% endfor %}
 </ul>
 
-[All news](./news.html)
+[All news](/news.html)
 
 
 ## Contributing

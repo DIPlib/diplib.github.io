@@ -106,7 +106,7 @@ porting your old code that used *DIPimage* to the new version.
       `diporien` and `dipprojection`, have also been removed.
 
     - A new function `viewslice` can be used to display any image (including tensor images and
-      higher-dimensional images) in [*DIPviewer*](https://diplib.org/diplib-docs/group__viewer.html#viewer_ui).
+      higher-dimensional images) in [*DIPviewer*](https://diplib.org/diplib-docs/dipviewer.html#viewer_ui).
       This is an alternative way to examine images, but none of the tools to programmatically
       interact with images displayed through `dipshow` will work with this viewer.
 
