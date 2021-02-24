@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Changes DIPimage 3.0.0"
-author: "Cris Luengo"
 ---
 
 Here we list the changes to *DIPimage* as compared to version 2.9. *DIPimage* is built on *DIPlib*,
