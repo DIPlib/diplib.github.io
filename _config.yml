@@ -6,3 +6,4 @@ github:
 title: "DIPlib"
 description: "Quantitative Image Analysis in C++, MATLAB and Python"
 show_downloads: true
+logo: /assets/images/DIPlib_logo.svg
