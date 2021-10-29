@@ -8,3 +8,12 @@ description: "Quantitative Image Analysis in C++, MATLAB and Python"
 logo: /assets/images/DIPlib_logo.svg
 show_title: false
 show_downloads: true
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      image:
+        path: /assets/images/DIPlib_social_media_preview.png
+        width: 912
+        height: 456
