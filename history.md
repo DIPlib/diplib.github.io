@@ -8,8 +8,8 @@ author: "Cris Luengo"
 
 Development of *DIPlib* started in 1995, at the capable hands of
 Geert van Kempen and Michael van Ginkel, under direction of
-[Lucas van Vliet](https://www.tudelft.nl/en/faculty-of-applied-sciences/about-faculty/dean/lucas-van-vliet/),
-at the Pattern Recognition Group (later Quantitative Imaging, now Computational imaging) of
+Lucas van Vliet, at the Pattern Recognition Group (later Quantitative
+Imaging, now Computational imaging) of
 [Delft University of Technology (TU Delft)](https://www.tudelft.nl/en/).
 Most of the algorithms that had been developed there were included in the
 library, together with a large collection of standard algorithms.
@@ -30,22 +30,32 @@ algorithms. That same year, a user-friendly GUI in the spirit of
 *DIPlib* library.
 
 *DIPlib 3* represents the first major rewrite of the *DIPlib* code base.
-Planning started in 2014, and by 2017 Cris Luengo had rewritten
-the infrastructure in C++14, using all of the original
-ideas and concepts, but adding tensor images, color support, and other
-ideas we had developed within the *DIPimage* toolbox. C++14 allows the
-user to write code that is almost as simple as the equivalent *MATLAB*
-code, making it simple to use the library even for rapid prototyping.
-Hopefully, the new infrastructure is much easier to read, maintain, and
-contribute to. We have ported most of the image analysis routines to use
-the new infrastructure.
+Planning started in 2014, and by 2017 Cris Luengo had rewritten the infrastructure
+in C++14, using all the original ideas and concepts, but adding tensor images,
+color support, and other ideas we had developed within the *DIPimage* toolbox.
+C++14 allows the user to write code that is almost as short as the equivalent
+*MATLAB* code, making it simple to use the library even for rapid prototyping.
+The new infrastructure is much easier to read, maintain, and contribute to.
+The original intention was to make minimal changes to the image analysis
+routines so that they would work within the new infrastructure, but we ended up
+significantly rewriting many of those routines, and some were rewritten from
+scratch to use more efficient algorithms underneath.
+Bernd Rieger provided financial support  for some of this effort through
+a European Research Council grant.
+[Very few routines have not been ported yet.](https://github.com/DIPlib/diplib/issues/20)
 
 The *DIPimage* toolbox has been updated to optimally use *DIPlib 3*. This means
 that some of the *MATLAB* code was replaced with calls to *DIPlib*, and
 the low-level interface (`dip_*` functions) disappeared. The internal
-representation of images has also changed. However, we strive
+representation of images has also changed. However, we strove
 to keep backwards-compatibility in the high-level toolbox functions.
+[Some functions have not yet been ported over.](https://github.com/DIPlib/diplib/issues/21).
 
 With financial support from Flagship Biosciences, Cris Luengo created the
-initial Python bindings (*PyDIP*) in 2017. Wouter Caarls created the
-*DIPviewer* and *DIPjavaio* components in 2017 and 2019, respectively.
+initial Python bindings (*PyDIP*) in 2017.
+
+Wouter Caarls created the *DIPviewer* and *DIPjavaio* components
+in 2017 and 2019, respectively.
+
+See [*DIPlib* contributors](/contributors.html) for a list of people that
+contributed code to the project.
