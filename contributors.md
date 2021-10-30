@@ -24,6 +24,7 @@ The following people have contributed new code the *DIPlib 3* project:
 * [Filip Malmberg](http://www.cb.uu.se/~filip/) ([@FMalmberg](https://github.com/FMalmberg))
 * Sebastiaan Lokhorst ([@slokhorst](https://github.com/slokhorst))
 * Milian Wolff ([@milianw](https://github.com/milianw))
+
 ... as well as all the people listed below, since much of the old code has been ported in one form or another.
 
 ## *DIPlib* 1--2
