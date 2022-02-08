@@ -49,7 +49,7 @@ that some of the *MATLAB* code was replaced with calls to *DIPlib*, and
 the low-level interface (`dip_*` functions) disappeared. The internal
 representation of images has also changed. However, we strove
 to keep backwards-compatibility in the high-level toolbox functions.
-[Some functions have not yet been ported over.](https://github.com/DIPlib/diplib/issues/21).
+[Some functions have not yet been ported over.](https://github.com/DIPlib/diplib/issues/21)
 
 With financial support from Flagship Biosciences, Cris Luengo created the
 initial Python bindings (*PyDIP*) in 2017.
