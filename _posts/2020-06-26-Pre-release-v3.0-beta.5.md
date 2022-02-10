@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pre-release v3.0 beta 5"
+title: "Pre-release 3.0 beta 5"
 date: 2020-06-26
 categories: news
 author: "Cris Luengo"
