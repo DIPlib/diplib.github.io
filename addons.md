@@ -26,7 +26,7 @@ You can download *DIPimage* 2.9 through the link on the side-bar.
   *Co-orientation: Quantifying simultaneous co-localization and orientational alignment of filaments in light microscopy*,
   PLoS ONE, **10**(7):e0131756, 2015.
 
-- [Quantitative localization microscopy](ftp://qiftp.tudelft.nl/DIPimage/addons/QuantitativeLocMic_software.zip),
+- [Quantitative localization microscopy](https://qiftp.tudelft.nl/diplib/addons/QuantitativeLocMic_software.zip),
   Reference: R.P.J. Nieuwenhuizen, M. Bates, A. Szymborska, K.A. Lidke, B. Rieger, S. Stallinga,
   *Quantitative localization microscopy: Effects of photophysics and labeling stoichiometry*,
   PLoS ONE, **10**(5):e0127989, 2015.
@@ -55,7 +55,7 @@ You can download *DIPimage* 2.9 through the link on the side-bar.
   *Fast, single-molecule localization that achieves theoretically minimum uncertainty*,
   Nature Methods, **7**(5):373-375, 2010.
 
-- [TEM CCD camera characterization add-on](ftp://qiftp.tudelft.nl/DIPimage/addons/TEMcamerasV2.0.zip).
+- [TEM CCD camera characterization add-on](https://qiftp.tudelft.nl/diplib/addons/TEMcamerasV2.0.zip).
   Reference: M. Vulović, B. Rieger, L.J. van Vliet, A.J. Koster and R.B.G. Ravelli,
   *A Toolkit for the Characterization of CCD cameras for Transmission Electron Microscopy*,
   Acta Crytallographica D., **66**:97-109, 2010.
