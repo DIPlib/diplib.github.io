@@ -4,11 +4,11 @@ layout: default
 
 # Change logs
 
-{% assign posts = site.changelogs| sort:'date' %}
+{% assign posts = site.changelogs | sort:'date','last' %}
 
 <ul>
 {% for post in posts %}
- {% if page.url != note.url %}
+ {% if post.url != "/changelogs/index.html" %}
   <li><a href="{{ post.url }}">{{ post.title }}</a></li>
  {% endif %}
 {% endfor %}
