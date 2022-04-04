@@ -6,4 +6,4 @@ categories: news
 author: "Ronald Ligteringen"
 ---
 
-The Windows version of DIPimage can now also be used with MATLAB 6.0 (R12).
+The Windows version of *DIPimage* can now also be used with MATLAB 6.0 (R12).

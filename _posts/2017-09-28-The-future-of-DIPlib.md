@@ -6,8 +6,8 @@ categories: news
 author: "Cris Luengo"
 ---
 
-Over the last some years we have slowly been working towards renewing DIPlib
+Over the last some years we have slowly been working towards renewing *DIPlib*
 and bringing it into the modern era. This effort has been accelerating over
 the last year, and is starting to shape up really nicely.
 I wrote a bit about the project here:
-["Cris' Image Analysis Blog: Presenting DIPlib 3.0"](https://www.crisluengo.net/archives/874).
+["Cris' Image Analysis Blog: Presenting *DIPlib* 3.0"](https://www.crisluengo.net/archives/874).

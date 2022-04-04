@@ -46,7 +46,7 @@ python -m diplib download_bioformats
 
 We recommend to import the module using
 ```python
-    import diplib as dip
+import diplib as dip
 ```
 All documentation assumes `dip` is the module name.
 
