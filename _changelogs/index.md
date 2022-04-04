@@ -4,7 +4,7 @@ layout: default
 
 # Change logs
 
-{% assign posts = site.changelogs | sort:'date','last' %}
+{% assign posts = site.changelogs | sort:'date' | reverse %}
 
 <ul>
 {% for post in posts %}
