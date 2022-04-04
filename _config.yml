@@ -17,3 +17,6 @@ defaults:
         path: /assets/images/DIPlib_social_media_preview.png
         width: 912
         height: 456
+collections:
+  changelogs:
+    output: true
