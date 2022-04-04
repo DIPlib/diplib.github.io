@@ -1,12 +1,15 @@
 ---
 layout: default
-author: "Cris Luengo"
 ---
 
 # Change logs
 
+{% assign posts = site.changelogs| sort:'date' %}
+
 <ul>
-{% for post in site.changelogs %}
-  <li><a href="{{ post.url }}">{{ post.title }}</li>
+{% for post in posts %}
+ {% if page.url != note.url %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+ {% endif %}
 {% endfor %}
 </ul>

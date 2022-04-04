@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Changes DIPimage 3.0 beta 5"
+date: 2020-06-26
 ---
 
 Here we list the changes to *DIPimage* as compared to version 2.9. *DIPimage* is built on *DIPlib*,
