@@ -6,7 +6,7 @@ author: "Cris Luengo"
 
 # *PyDIP*
 
-Currently, *PyDIP* is a thin wrapper that makes most of the functionality in *DIPlib*
+*PyDIP* is a thin wrapper that makes most of the functionality in *DIPlib*
 accessible from within Python.
 Function names and arguments are mostly identical to the C++ functions. The only
 exception is for indexing into images, which uses the Python slicing syntax.
@@ -15,7 +15,8 @@ used with most *NumPy* functions. Likewise, any object that exposes a data buffe
 (e.g. *NumPy* arrays) can be used as input to *PyDIP* functions.
 
 The interface only has automatically generated docstrings that show the names of
-each of the parameters. Use the DIPlib reference to learn how to use each function.
+each of the parameters, except where the syntax differs from that of *DIPlib*.
+Use the *DIPlib* reference to learn how to use each function.
 Get started by reading [the *PyDIP* User Manual](/diplib-docs/pydip_user_manual.html).
 
 Images can be shown using the `Show` method, which uses *matplotlib*.
@@ -23,10 +24,12 @@ The `dip.viewer` sub-module gives access to [*DIPviewer*](/diplib-docs/dipviewer
 When Python is started through the `examples/python/pydip.py` script, the `Show` function
 will use the *DIPviewer* interactive display.
 
-These Jupyter notebooks give a short introduction:
+These *Jupyter* notebooks give a short introduction:
 
-- [pydip_basics.ipynb](https://github.com/DIPlib/diplib/blob/master/examples/python/pydip_basics.ipynb)
-- [tensor_images.ipynb](https://github.com/DIPlib/diplib/blob/master/examples/python/tensor_images.ipynb)
+- [01_pydip_basics.ipynb](https://github.com/DIPlib/diplib/blob/master/examples/python/01_pydip_basics.ipynb)
+- [02_filtering.ipynb](https://github.com/DIPlib/diplib/blob/master/examples/python/02_filtering.ipynb)
+- [03_numpy_interaction.ipynb](https://github.com/DIPlib/diplib/blob/master/examples/python/03_numpy_interaction.ipynb)
+- [04_tensor_images.ipynb](https://github.com/DIPlib/diplib/blob/master/examples/python/04_tensor_images.ipynb)
 
 ## Installation
 
