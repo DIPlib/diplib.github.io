@@ -226,7 +226,7 @@ None, but see bugfixes to *DIPlib*.
   `dip::Polygon::CovarianceMatrixVertices()`.
 
 - Creating a `dip.Image` object around an existing buffer (i.e. converting a *NumPy* array) causes the image
-  to be [protected](https://diplib.org/diplib-docs/dip-Image.html#protect) by default.
+  to be [protected](/diplib-docs/dip-Image.html#protect) by default.
   It is possible to manually unprotect the image after conversion.
 
 - `dip.Image.TensorElement()` is deprecated and will be removed in a future version of *PyDIP*. Since the first

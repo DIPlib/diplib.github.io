@@ -106,7 +106,7 @@ porting your old code that used *DIPimage* to the new version.
       `diporien` and `dipprojection`, have also been removed.
 
     - A new function `viewslice` can be used to display any image (including tensor images and
-      higher-dimensional images) in [*DIPviewer*](https://diplib.org/diplib-docs/dipviewer.html#viewer_ui).
+      higher-dimensional images) in [*DIPviewer*](/diplib-docs/dipviewer.html#viewer_ui).
       This is an alternative way to examine images, but none of the tools to programmatically
       interact with images displayed through `dipshow` will work with this viewer.
 
@@ -118,7 +118,7 @@ porting your old code that used *DIPimage* to the new version.
         - `'DisplayFunction'` can be set to either `'dipshow'` (the default), or `'viewslice'`,
           and determines which of these functions is invoked by default when the `dip_image/display`
           method is invoked (see the
-          [*DIPimage* User Manual](https://diplib.org/diplib-docs/sec_dum_customizing.html#sec_dum_customizing_dippref_displayfunction)
+          [*DIPimage* User Manual](/diplib-docs/sec_dum_customizing.html#sec_dum_customizing_dippref_displayfunction)
           for more details).
 
     - Changed settings:
@@ -126,7 +126,7 @@ porting your old code that used *DIPimage* to the new version.
         - `'KeepDataType'`, which changes how the output data type for arithmetic operations is
           chosen, has the same intent but does not always make the same choice. For example
           the result is different when mixing signed and unsigned integers. (see the
-          [*DIPimage* User Manual](https://diplib.org/diplib-docs/sec_dum_customizing.html#sec_dum_customizing_dippref_keepdatatype)
+          [*DIPimage* User Manual](/diplib-docs/sec_dum_customizing.html#sec_dum_customizing_dippref_keepdatatype)
           for details on the current logic).
 
     - Removed settings:

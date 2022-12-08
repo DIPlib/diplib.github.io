@@ -78,4 +78,8 @@ The *DIPlib* project also contains *DIPviewer*, an interactive image display uti
 
 We recommend that you build the library yourself from sources. There are some optional
 external dependencies, all required dependencies are included in the repository.
-For build instructions see [`INSTALL.md`](https://github.com/DIPlib/diplib/blob/master/INSTALL.md).
+For build instructions see [Building the *DIPlib* library](/diplib-docs/building_diplib.html).
+
+When linking against the *DIPlib* library without using *CMake*, it is important to set a few preprocessor
+macros. See [Linking against the *DIPlib* library](/diplib-docs/building_diplib.html#linking_diplib)
+for details.

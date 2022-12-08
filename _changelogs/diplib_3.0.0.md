@@ -359,10 +359,10 @@ this list will help in porting your old code that used *DIPlib* to the new versi
 
 ## New functionality
 
-- New external library *DIPviewer* adds interactive image display, see [its documentation](https://diplib.org/diplib-docs/dipviewer.html).
+- New external library *DIPviewer* adds interactive image display, see [its documentation](/diplib-docs/dipviewer.html).
 
 - New external library *DIPjavaio* adds the option to use *Bio-Formats* to read hundreds of image file formats,
-  see [its documentation](https://diplib.org/diplib-docs/dipjavaio.html).
+  see [its documentation](/diplib-docs/dipjavaio.html).
 
 - New analysis functions: `dip::AutoCorrelationFT`, `dip::MeanShift`, `dip::FourierMellinMatch2D`, `dip::MonogenicSignal`,
   `dip::MonogenicSignalAnalysis`, `dip::Semivariogram`, `dip::Granulometry`, `dip::FractalDimension`.
@@ -466,4 +466,4 @@ this list will help in porting your old code that used *DIPlib* to the new versi
 - New transform functions: `dip::OptimalFourierTransformSize`, `dip::RieszTransform`, `dip::StationaryWaveletTransform`.
 
 - There is also a lot of new functionality in the library infrastructure, which we cannot all list here.
-  See [the library infrastructure documentation](https://diplib.org/diplib-docs/infrastructure.html).
+  See [the library infrastructure documentation](/diplib-docs/infrastructure.html).

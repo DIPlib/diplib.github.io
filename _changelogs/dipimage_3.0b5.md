@@ -52,13 +52,13 @@ porting your old code that used *DIPimage* to the new version.
       is the natural way of doing it, as it doesn't require data copy. It also makes the function
       consistent with linear indexing (reshaping an image doesn't change the linear index of the
       pixels). We presume there are few (if any) programs that depend on the old behavior. See
-      [this section of the *DIPimage* User Manual](https://diplib.org/diplib-docs/sec_dum_dip_image.html#sec_dum_dip_image_reshape)
+      [this section of the *DIPimage* User Manual](/diplib-docs/sec_dum_dip_image.html#sec_dum_dip_image_reshape)
       for more details).
 
     - The `squeeze` method now might reorder dimensions, for the same reasoning as the change to
       `reshape`. The new preference `'CheapSqueeze'` can be used to revert to the old behavior
       if necessary. See
-      [this section of the *DIPimage* User Manual](https://diplib.org/diplib-docs/sec_dum_dip_image.html#sec_dum_dip_image_reshape)
+      [this section of the *DIPimage* User Manual](/diplib-docs/sec_dum_dip_image.html#sec_dum_dip_image_reshape)
       for more details).
 
     - There are slight changes to how array data types are handled when converting to a `dip_image`
@@ -112,7 +112,7 @@ porting your old code that used *DIPimage* to the new version.
       `diporien` and `dipprojection`, have also been removed.
 
     - A new function `viewslice` can be used to display any image (including tensor images and
-      higher-dimensional images) in [*DIPviewer*](https://diplib.org/diplib-docs/dipviewer.html#viewer_ui).
+      higher-dimensional images) in [*DIPviewer*](/diplib-docs/dipviewer.html#viewer_ui).
       This is an alternative way to examine images, but none of the tools to programmatically
       interact with images displayed through `dipshow` will work with this viewer.
 
@@ -123,18 +123,18 @@ porting your old code that used *DIPimage* to the new version.
 
         - `'CheapSqueeze'` controls the behavior of the `dip_image/squeeze` method. Set it to `'off'`
           to mimic the behavior of *DIPimage* versions prior to 3.0 (see the
-          [*DIPimage* User Manual](https://diplib.org/diplib-docs/sec_dum_customizing.html#sec_dum_customizing_dippref_cheapsqueeze)
+          [*DIPimage* User Manual](/diplib-docs/sec_dum_customizing.html#sec_dum_customizing_dippref_cheapsqueeze)
           for more details).
 
         - `'DisplayFunction'` can be set to either `'dipshow'` (the default), `'viewslice'`, or
           `'view5d'`, and determines which of these functions is invoked by default when the
           `dip_image/display` method is invoked (see the
-          [*DIPimage* User Manual](https://diplib.org/diplib-docs/sec_dum_customizing.html#sec_dum_customizing_dippref_displayfunction)
+          [*DIPimage* User Manual](/diplib-docs/sec_dum_customizing.html#sec_dum_customizing_dippref_displayfunction)
           for more details).
 
         - `'FtOption'` adds one option to the `ft` and `ift` functions, and allows to configure
           *DIPimage* be be compatible with versions prior to 3.0 (see the
-          [*DIPimage* User Manual](https://diplib.org/diplib-docs/sec_dum_customizing.html#sec_dum_customizing_dippref_ftoption)
+          [*DIPimage* User Manual](/diplib-docs/sec_dum_customizing.html#sec_dum_customizing_dippref_ftoption)
           for more details).
 
     - Changed settings:
@@ -142,7 +142,7 @@ porting your old code that used *DIPimage* to the new version.
         - `'KeepDataType'`, which changes how the output data type for arithmetic operations is
           chosen, has the same intent but does not always make the same choice. For example
           the result is different when mixing signed and unsigned integers. (see the
-          [*DIPimage* User Manual](https://diplib.org/diplib-docs/sec_dum_customizing.html#sec_dum_customizing_dippref_keepdatatype)
+          [*DIPimage* User Manual](/diplib-docs/sec_dum_customizing.html#sec_dum_customizing_dippref_keepdatatype)
           for details on the current logic).
 
     - Removed settings:
