@@ -31,6 +31,14 @@ These *Jupyter* notebooks give a short introduction:
 - [03_numpy_interaction.ipynb](https://github.com/DIPlib/diplib/blob/master/examples/python/03_numpy_interaction.ipynb)
 - [04_tensor_images.ipynb](https://github.com/DIPlib/diplib/blob/master/examples/python/04_tensor_images.ipynb)
 
+**Note!** We consider the Python bindings (*PyDIP*) to be in development. We aim at
+not making breaking changes, but will sometimes do so when we feel it significantly
+improves the usability of the module. These changes will always be highlighted in
+the change logs and the release notification on the *DIPlib* website.
+We recommend that you pin your project to use a specific version of the package
+on PyPI, and carefully read the change logs before upgrading.
+
+
 ## Installation
 
 To install, simply type
@@ -53,9 +61,10 @@ import diplib as dip
 ```
 All documentation assumes `dip` is the module name.
 
-**NOTE!** We consider the Python bindings (*PyDIP*) to be in development. We aim at
-not making breaking changes, but will sometimes do so when we feel it significantly
-improves the usability of the module. These changes will always be highlighted in
-the change logs and the release notification on the *DIPlib* website.
-We recommend that you pin your project to use a specific version of the package
-on PyPI, and carefully read the change logs before upgrading.
+**Note:** The `diplib` package on PyPI vendors the *OpenMP* library for some platforms
+(`libomp.dylib` on macOS, `libgomp.so` on Linux). It is possible, though rare, for another package to vendor
+an incompatible *OpenMP* library, and for the combined use to cause Python to crash.
+See for example [this issue](https://github.com/DIPlib/diplib/issues/130). If you happen to run into this problem,
+please [let us know!](https://github.com/DIPlib/diplib/issues/new/choose).
+You can find more information about the simultaneous use of multiple *OpenMP* libraries
+[on this page](https://github.com/joblib/threadpoolctl/blob/master/multiple_openmp.md).
