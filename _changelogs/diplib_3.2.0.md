@@ -198,4 +198,3 @@ date: 2022-02-08
 ## Changes to *DIPjavaio*
 
 None.
-
