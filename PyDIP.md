@@ -26,10 +26,10 @@ will use the *DIPviewer* interactive display.
 
 These *Jupyter* notebooks give a short introduction:
 
-- [01_pydip_basics.ipynb](https://github.com/DIPlib/diplib/blob/master/examples/python/01_pydip_basics.ipynb)
-- [02_filtering.ipynb](https://github.com/DIPlib/diplib/blob/master/examples/python/02_filtering.ipynb)
-- [03_numpy_interaction.ipynb](https://github.com/DIPlib/diplib/blob/master/examples/python/03_numpy_interaction.ipynb)
-- [04_tensor_images.ipynb](https://github.com/DIPlib/diplib/blob/master/examples/python/04_tensor_images.ipynb)
+- [01_pydip_basics.ipynb](https://github.com/DIPlib/diplib-notebooks/blob/main/01_pydip_basics.ipynb)
+- [02_filtering.ipynb](https://github.com/DIPlib/diplib-notebooks/blob/main/02_filtering.ipynb)
+- [03_numpy_interaction.ipynb](https://github.com/DIPlib/diplib-notebooks/blob/main/03_numpy_interaction.ipynb)
+- [04_tensor_images.ipynb](https://github.com/DIPlib/diplib-notebooks/blob/main/04_tensor_images.ipynb)
 
 **Note!** We consider the Python bindings (*PyDIP*) to be in development. We aim at
 not making breaking changes, but will sometimes do so when we feel it significantly
