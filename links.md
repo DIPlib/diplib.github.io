@@ -8,11 +8,11 @@ author: "Cris Luengo"
 
 ## Learning image analysis
 
-- [*Image Analysis AP3471*](https://qiftp.tudelft.nl/diplib/docs/ipcourse.pdf), a manual for
+- [*Image Analysis AP3471*](https://ftp.imphys.tudelft.nl/DIPimage/docs/ipcourse.pdf), a manual for
   an elective M.Sc. course at TU Delft using *DIPimage*.
 
 - I.T. Young, J.J. Gerbrands, L.J. van Vliet,
-  "[*Fundamentals of Image Processing*](https://qiftp.tudelft.nl/diplib/docs/FIP2.3.pdf)",
+  "[*Fundamentals of Image Processing*](https://ftp.imphys.tudelft.nl/DIPimage/docs/FIP2.3.pdf)",
   an online image processing book.
 
 - A.K. Jain, "*Fundamentals of Digital Image Processing*", Prentice Hall, 1989.
