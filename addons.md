@@ -13,30 +13,30 @@ This page provides links to
 Most of the add-ons here require *DIPimage* 2.9, and might not work with the latest release.
 You can download *DIPimage* 2.9 through the link on the side-bar.
 
-- [Calibration photon counts from a single image](ftp://qiftp.tudelft.nl/rieger/outgoing/pcfo),
+- [Calibration photon counts from a single image](ftp://ftp.imphys.tudelft.nl/rieger/outgoing/pcfo),
   Reference: R. Heintzmann, P.K. Relich, P.P.J. Nieuwenhuizen, K.A. Lidke, B. Rieger, submitted
 
-- [Deconvolution methods for structured illumination microscopy](ftp://qiftp.tudelft.nl/rieger/outgoing/piFP_and_jRL.zip),
+- [Deconvolution methods for structured illumination microscopy](ftp://ftp.imphys.tudelft.nl/rieger/outgoing/piFP_and_jRL.zip),
   Reference: N. Chakrova, B. Rieger, S. Stallinga,
   *Deconvolution methods for structured illumination microscopy*,
   Journal of the Optical Society of America A, **33**(7):B12-B20, 2016.
 
-- [Co-orientation](ftp://qiftp.tudelft.nl/rieger/outgoing/Coorientation_Software.zip),
+- [Co-orientation](ftp://ftp.imphys.tudelft.nl/rieger/outgoing/Coorientation_Software.zip),
   Reference: R.P.J. Nieuwenhuizen, L. Nahidi Azar, E.M.M. Manders, K. Jalink, Stallinga, B. Rieger,
   *Co-orientation: Quantifying simultaneous co-localization and orientational alignment of filaments in light microscopy*,
   PLoS ONE, **10**(7):e0131756, 2015.
 
-- [Quantitative localization microscopy](https://qiftp.tudelft.nl/diplib/addons/QuantitativeLocMic_software.zip),
+- [Quantitative localization microscopy](https://ftp.imphys.tudelft.nl/DIPimage/addons/QuantitativeLocMic_software.zip),
   Reference: R.P.J. Nieuwenhuizen, M. Bates, A. Szymborska, K.A. Lidke, B. Rieger, S. Stallinga,
   *Quantitative localization microscopy: Effects of photophysics and labeling stoichiometry*,
   PLoS ONE, **10**(5):e0127989, 2015.
 
-- [Image Resolution](ftp://qiftp.tudelft.nl/rieger/outgoing/FRCresolution_software.zip),
+- [Image Resolution](ftp://ftp.imphys.tudelft.nl/rieger/outgoing/FRCresolution_software.zip),
   Reference: R.P.J. Nieuwenhuizen, K.A. Lidke, M. Bates, D. Leyton Puig, D. Grünwald, S. Stallinga, B. Rieger,
   *Measuring Image Resolution in Optical Nanoscopy*,
   Nature Methods, **10**(6):557-562, 2013.
 
-- [Podosome counting](ftp://qiftp.tudelft.nl/rieger/outgoing/Meddens_podosome.zip),
+- [Podosome counting](ftp://ftp.imphys.tudelft.nl/rieger/outgoing/Meddens_podosome.zip),
   Reference: M.B.M. Meddens, B. Rieger, C.G. Figdor, A. Cambi, K. van den Dries,
   *Automated podosome identification and characterization in fluorescence microscopy images*,
   Microscopy and Microanalysis, **19**(1):180-189, 2013.
@@ -50,17 +50,17 @@ You can download *DIPimage* 2.9 through the link on the side-bar.
   *Precise and Unbiased Estimation of Astigmatism and Defocus in Transmission Electron Microscopy*,
   Ultramicroscopy, **116**:115-134, 2012.
 
-- [Single emitter fitting](ftp://qiftp.tudelft.nl/rieger/outgoing/crlb.zip).
+- [Single emitter fitting](ftp://ftp.imphys.tudelft.nl/rieger/outgoing/crlb.zip).
   Reference: C.S. Smith, N. Joseph, B. Rieger and K.A. Lidke,
   *Fast, single-molecule localization that achieves theoretically minimum uncertainty*,
   Nature Methods, **7**(5):373-375, 2010.
 
-- [TEM CCD camera characterization add-on](https://qiftp.tudelft.nl/diplib/addons/TEMcamerasV2.0.zip).
+- [TEM CCD camera characterization add-on](https://ftp.imphys.tudelft.nl/DIPimage/addons/TEMcamerasV2.0.zip).
   Reference: M. Vulović, B. Rieger, L.J. van Vliet, A.J. Koster and R.B.G. Ravelli,
   *A Toolkit for the Characterization of CCD cameras for Transmission Electron Microscopy*,
   Acta Crytallographica D., **66**:97-109, 2010.
 
-- [DNA analysis software add-on](ftp://qiftp.tudelft.nl/rieger/outgoing/WLCana.zip).
+- [DNA analysis software add-on](ftp://ftp.imphys.tudelft.nl/rieger/outgoing/WLCana.zip).
   Reference: F.G.A. Faas, B. Rieger, L.J. van Vliet and D.I. Cherny,
   *DNA deformations near charged surfaces: electron and atomic force microscopy views*,
   Biophysical Journal **97**(4):1148-1157, 2009.

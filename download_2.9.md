@@ -48,50 +48,50 @@ All versions have been tested on the following platforms:
 ## Download
 
 Please make sure you follow the installation instructions found in
-[the DIPimage User Manual](https://qiftp.tudelft.nl/diplib/latest/docs/dipimage_user_manual.pdf).
+[the DIPimage User Manual](https://ftp.imphys.tudelft.nl/DIPimage/latest/docs/dipimage_user_manual.pdf).
 
-- For Linux 32-bits: [dipimage_2.9_lin32.tbz](https://qiftp.tudelft.nl/diplib/2.9/dipimage_2.9_lin32.tbz).
-- For Linux 64-bits: [dipimage_2.9_lin64.tbz](https://qiftp.tudelft.nl/diplib/2.9/dipimage_2.9_lin64.tbz).
-- For MacOS X (10.6 or higher): [dipimage_2.9_darwin.tbz](https://qiftp.tudelft.nl/diplib/2.9/dipimage_2.9_darwin.tbz).
-- For Windows 64-bits [DIPimage 2.9 installer win64.exe](https://qiftp.tudelft.nl/diplib/2.9/DIPimage%202.9%20installer%20win64.exe)
-    (recommended) or [dipimage_2.9_win64.zip](https://qiftp.tudelft.nl/diplib/2.9/dipimage_2.9_win64.zip) (for manual installation).
+- For Linux 32-bits: [dipimage_2.9_lin32.tbz](https://ftp.imphys.tudelft.nl/DIPimage/2.9/dipimage_2.9_lin32.tbz).
+- For Linux 64-bits: [dipimage_2.9_lin64.tbz](https://ftp.imphys.tudelft.nl/DIPimage/2.9/dipimage_2.9_lin64.tbz).
+- For MacOS X (10.6 or higher): [dipimage_2.9_darwin.tbz](https://ftp.imphys.tudelft.nl/DIPimage/2.9/dipimage_2.9_darwin.tbz).
+- For Windows 64-bits [DIPimage 2.9 installer win64.exe](https://ftp.imphys.tudelft.nl/DIPimage/2.9/DIPimage%202.9%20installer%20win64.exe)
+    (recommended) or [dipimage_2.9_win64.zip](https://ftp.imphys.tudelft.nl/DIPimage/2.9/dipimage_2.9_win64.zip) (for manual installation).
 
 The set of demo images can be downloaded in two forms:
 
-- [images.tbz](https://qiftp.tudelft.nl/diplib/images.tbz) or
-- [images.zip](https://qiftp.tudelft.nl/diplib/images.zip).
+- [images.tbz](https://ftp.imphys.tudelft.nl/DIPimage/images.tbz) or
+- [images.zip](https://ftp.imphys.tudelft.nl/DIPimage/images.zip).
 
 Both files contain the same files, so you only need to download one format.
 
 *DIPimage* documentation:
 
-- [User Manual (PDF)](https://qiftp.tudelft.nl/diplib/latest/docs/dipimage_user_manual.pdf)
-- [Introduction to *DIPimage* (PDF)](https://qiftp.tudelft.nl/diplib/docs/Introduction_to_DIPimage.pdf)
+- [User Manual (PDF)](https://ftp.imphys.tudelft.nl/DIPimage/latest/docs/dipimage_user_manual.pdf)
+- [Introduction to *DIPimage* (PDF)](https://ftp.imphys.tudelft.nl/DIPimage/docs/Introduction_to_DIPimage.pdf)
 - Function reference is available within the toolbox
-- [MEX-file programming with *DIPimage* (PDF)](https://qiftp.tudelft.nl/diplib/latest/docs/mex_file_programming.pdf)
+- [MEX-file programming with *DIPimage* (PDF)](https://ftp.imphys.tudelft.nl/DIPimage/latest/docs/mex_file_programming.pdf)
 
 *DIPlib* documentation:
 
-- [Programmers Guide (PDF)](https://qiftp.tudelft.nl/diplib/latest/docs/diplib_programmers_guide.pdf)
-- [Function Reference (PDF)](https://qiftp.tudelft.nl/diplib/latest/docs/diplib_reference_guide.pdf) (~3Mb)
-- [Online Function Reference (HTML)](http://qiftp.tudelft.nl/dipref)
+- [Programmers Guide (PDF)](https://ftp.imphys.tudelft.nl/DIPimage/latest/docs/diplib_programmers_guide.pdf)
+- [Function Reference (PDF)](https://ftp.imphys.tudelft.nl/DIPimage/latest/docs/diplib_reference_guide.pdf) (~3Mb)
+- [Online Function Reference (HTML)](https://ftp.imphys.tudelft.nl/DIPimage/latest/docs/reference/)
 
 *DIPlib* sample source code:
 
-- [Sample stand-alone application in C](https://qiftp.tudelft.nl/diplib/docs/standalone.c)
-- [Same application without error-handling macros](https://qiftp.tudelft.nl/diplib/docs/standalone2.c)
-- [Demonstration of the measurement functions](https://qiftp.tudelft.nl/diplib/docs/measuredemo.c)
-- [Stand-alone application to create a thumbnail](https://qiftp.tudelft.nl/diplib/docs/makethumbs.c)
+- [Sample stand-alone application in C](https://ftp.imphys.tudelft.nl/DIPimage/docs/standalone.c)
+- [Same application without error-handling macros](https://ftp.imphys.tudelft.nl/DIPimage/docs/standalone2.c)
+- [Demonstration of the measurement functions](https://ftp.imphys.tudelft.nl/DIPimage/docs/measuredemo.c)
+- [Stand-alone application to create a thumbnail](https://ftp.imphys.tudelft.nl/DIPimage/docs/makethumbs.c)
    (this is a more complete and useful sample)
 
 ## Older releases
 
 Throughout time support for older versions of MATLAB has been dropped. Older releases of *DIPimage* might
 support these older versions. These can be found in their respective directories on our FTP site:
-<https://qiftp.tudelft.nl/diplib/>.
+<https://ftp.imphys.tudelft.nl/DIPimage/>.
 
 Also other older platforms have been supported in previous releases of *DIPlib* and *DIPimage*.
-These can be found here: <https://qiftp.tudelft.nl/diplib/unsupported>.
+These can be found here: <https://ftp.imphys.tudelft.nl/DIPimage/unsupported>.
 
 ## License
 
@@ -174,11 +174,11 @@ The licenses of these libraries expressly permit the embedding in commercial and
 They do require to mention the copyright with the application.
 For each library, the copyright can be downloaded below:
 
-- [gif license.txt](https://qiftp.tudelft.nl/diplib/licenses/gif_license.txt)
-- [ics license.txt](https://qiftp.tudelft.nl/diplib/licenses/ics_license.txt)
-- [jpeg license.txt](https://qiftp.tudelft.nl/diplib/licenses/jpeg_license.txt)
-- [tiff license.txt](https://qiftp.tudelft.nl/diplib/licenses/tiff_license.txt)
-- [zlib license.txt](https://qiftp.tudelft.nl/diplib/licenses/zlib_license.txt)
+- [gif license.txt](https://ftp.imphys.tudelft.nl/DIPimage/licenses/gif_license.txt)
+- [ics license.txt](https://ftp.imphys.tudelft.nl/DIPimage/licenses/ics_license.txt)
+- [jpeg license.txt](https://ftp.imphys.tudelft.nl/DIPimage/licenses/jpeg_license.txt)
+- [tiff license.txt](https://ftp.imphys.tudelft.nl/DIPimage/licenses/tiff_license.txt)
+- [zlib license.txt](https://ftp.imphys.tudelft.nl/DIPimage/licenses/zlib_license.txt)
 
 ### Request license
 
