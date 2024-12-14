@@ -1,11 +1,69 @@
 ---
 ---
 
-@import "{{ site.theme }}";
-
 body {
-  font: 13px/1.5 'Libre Baskerville', serif;
+  background-color: #fff;
   color: #000000;
+  padding: 50px;
+  font: 13px/1.5 'Libre Baskerville', serif;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 860px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #000000;
+  margin: 0 0 20px;
+}
+
+p, ul, ol, table, pre, dl {
+  margin: 0 0 20px;
+}
+
+h1, h2, h3 {
+  line-height: 1.1;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  color: #393939;
+}
+
+h3, h4, h5, h6 {
+  color: #494949;
+}
+
+a, a code {
+  color: #ff7400;
+  text-decoration: none;
+}
+
+a:hover, a:focus, a:hover code, a:focus code {
+  color: #bf7130;
+  font-weight: inherit;
+}
+
+a small {
+  font-size: 11px;
+  color: #777;
+  margin-top: -0.3em;
+  display: block;
+}
+
+a:hover small {
+  color: #777;
+}
+
+blockquote {
+  border-left: 1px solid #e5e5e5;
+  margin: 0;
+  padding: 0 0 0 20px;
+  font-style: italic;
 }
 
 code, pre {
@@ -15,8 +73,78 @@ code, pre {
   background-color: #f7f7f7;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color: #000000;
+pre {
+  padding:8px 15px;
+  background: #f8f8f8;
+  border-radius:5px;
+  border:1px solid #e5e5e5;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  text-align: left;
+  padding: 5px 10px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+dt {
+  color: #444;
+  font-weight: 700;
+}
+
+th {
+  color: #444;
+}
+
+img {
+  max-width: 100%;
+}
+
+p.logo {
+  margin: auto;
+  text-align: center;
+}
+
+.logo img, .logo span  {
+  max-width: 200px;
+}
+
+kbd {
+  background-color: #fafbfc;
+  border: 1px solid #c6cbd1;
+  border-bottom-color: #959da5;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #959da5;
+  color: #444d56;
+  display: inline-block;
+  font-size: 11px;
+  line-height: 10px;
+  padding: 3px 5px;
+  vertical-align: middle;
+}
+
+.meta {
+  float: left;
+}
+
+header {
+  float: none;
+  width: 270px;
+}
+
+aside {
+  float: none;
+  width: 210px;
+}
+
+section {
+  width: 500px;
+  float: right;
 }
 
 header h1 {
@@ -25,16 +153,77 @@ header h1 {
   margin-bottom: 5px;
 }
 
-a, a code {
-  color: #ff7400;
+ul.downloads {
+  list-style: none;
+  height: 40px;
+  padding: 0;
+  background: #f4f4f4;
+  border-radius: 5px;
+  border: 1px solid #e0e0e0;
+  width: 270px;
+  margin-top: 10px;
 }
 
-a:hover, a:focus, a:hover code, a:focus code {
-  color: #bf7130;
-  font-weight: inherit;
+.downloads li {
+  width: 89px;
+  float: left;
+  border-right: 1px solid #e0e0e0;
+  height: 40px;
 }
 
-/* Override settings for 'header ul' */
+.downloads li:first-child a {
+  border-radius: 5px 0 0 5px;
+}
+
+.downloads li:last-child a {
+  border-radius: 0 5px 5px 0;
+}
+
+.downloads a {
+  line-height: 1;
+  font-size: 11px;
+  color: #676767;
+  display: block;
+  text-align: center;
+  padding-top: 6px;
+  height: 34px;
+}
+
+.downloads a:hover, .downloads a:focus {
+  color: #675C5C;
+  font-weight: bold;
+}
+
+.downloads ul a:active {
+  background-color: #f0f0f0;
+}
+
+strong {
+  color: #222;
+  font-weight: 700;
+}
+
+.downloads li + li + li {
+  border-right: none;
+  width: 89px;
+}
+
+.downloads a strong {
+  font-size: 14px;
+  display: block;
+  color: #222;
+}
+
+small {
+  font-size: 11px;
+}
+
+hr {
+  border: 0;
+  background: #e5e5e5;
+  height: 1px;
+  margin: 0 0 20px;
+}
 
 ul.links {
   width: inherit;
@@ -65,4 +254,29 @@ ul.links {
 .links a:hover {
   color: #bf7130;
   font-weight: inherit;
+}
+
+@media print, screen and (max-width: 960px) {
+
+  .wrapper {
+    width: 500px;
+  }
+
+  .meta {
+    float: none;
+  }
+
+  header {
+    float: left;
+  }
+
+  aside {
+    float: left;
+    margin-left: 20px;
+  }
+
+  section {
+    float: none;
+    clear: both;
+  }
 }

@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-{% seo %}
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700,700i%7CSource+Code+Pro:400,400i,600">
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <!--[if lt IE 9]>
@@ -26,51 +25,53 @@
   </head>
   <body>
     <div class="wrapper">
-      <header>
-        {% if site.show_title %}
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-        {% endif %}
 
-        {% if site.logo %}
-        <a href="{{ "/" | absolute_url }}"><img src="{{site.logo | relative_url}}" alt="{ site.title | default: site.github.repository_name }" /></a>
-        {% endif %}
+      <div class="meta">
 
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+        <header>
+          {% if site.show_title %}
+          <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+          {% endif %}
 
-        {% if site.show_downloads %}
-        <ul class="downloads">
-          <li><a href="{{ site.github.zip_url }}">Download <strong>latest</strong></a></li>
-          <li><a href="{{ site.github.tar_url }}">Download <strong>2.9</strong></a></li>
-          <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
-        </ul>
-        {% endif %}
+          {% if site.logo %}
+          <p class="logo"><a href="{{ "/" | absolute_url }}"><img src="{{site.logo | relative_url}}" alt="{ site.title | default: site.github.repository_name }" /></a></p>
+          {% endif %}
 
-        <ul class="links">
-          <li><a href="/news.html">News</a></li>
-          <li><a href="https://github.com/DIPlib/diplib/issues">Issues tracker</a></li>
-          <li><a href="/diplib-docs/"><i>DIPlib</i> documentation</a></li>
-          <li><a href="/diplib-docs/dipimage_user_manual.html"><i>DIPimage</i> User Manual</a></li>
-          <li><a href="/diplib-docs/pydip_user_manual.html"><i>PyDIP</i> User Manual</a></li>
-          <li><a href="/diplib-docs/dipviewer.html"><i>DIPviewer</i> documentation</a></li>
-          <li><a href="/history.html">A short history of the project</a></li>
-          <li><a href="/changelogs">Change logs</a></li>
-          <li><a href="/contributors.html">Contributors</a></li>
-          <li><a href="/contributing.html">Contributing</a></li>
-          <li><a href="/license.html">License</a></li>
-          <li><a href="/addons.html">Add-ons</a></li>
-          <li><a href="/links.html">External Links</a></li>
-        </ul>
+          <p class="logo"><span>{{ site.description | default: site.github.project_tagline }}</span></p>
 
-      </header>
+          {% if site.show_downloads %}
+          <ul class="downloads">
+            <li><a href="{{ site.github.zip_url }}">Download <strong>latest</strong></a></li>
+            <li><a href="{{ site.github.tar_url }}">Download <strong>2.9</strong></a></li>
+            <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
+          </ul>
+          {% endif %}
+        </header>
+
+        <aside>
+          <ul class="links">
+            <li><a href="/news.html">News</a></li>
+            <li><a href="https://github.com/DIPlib/diplib/issues">Issues tracker</a></li>
+            <li><a href="/diplib-docs/"><i>DIPlib</i> documentation</a></li>
+            <li><a href="/diplib-docs/dipimage_user_manual.html"><i>DIPimage</i> User Manual</a></li>
+            <li><a href="/diplib-docs/pydip_user_manual.html"><i>PyDIP</i> User Manual</a></li>
+            <li><a href="/diplib-docs/dipviewer.html"><i>DIPviewer</i> documentation</a></li>
+            <li><a href="/history.html">A short history of the project</a></li>
+            <li><a href="/changelogs">Change logs</a></li>
+            <li><a href="/contributors.html">Contributors</a></li>
+            <li><a href="/contributing.html">Contributing</a></li>
+            <li><a href="/license.html">License</a></li>
+            <li><a href="/addons.html">Add-ons</a></li>
+            <li><a href="/links.html">External Links</a></li>
+          </ul>
+        </aside>
+
+      </div>
+
       <section>
-
-      {{ content }}
-
+        {{ content }}
       </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
+
     </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
 </html>
